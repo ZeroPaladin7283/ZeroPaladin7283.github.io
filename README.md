@@ -2,4 +2,5 @@
 
 # Golden Caffee
 
-# Paladin respos clone pc
+# Paladin commits
+# uploaded css file nov. 11. 16:35
