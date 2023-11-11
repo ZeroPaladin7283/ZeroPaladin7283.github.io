@@ -1,5 +1,5 @@
 # ZeroPaladin7283.github.io
 
-# Golde Caffee
+# Golden Caffee
 
-...
+# Paladin respos clone pc
