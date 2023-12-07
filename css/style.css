@@ -4,3 +4,32 @@ body{
     background-position: center;
     background-attachment: fixed;
 }
+
+a:hover{
+    color: gold;
+}
+
+a{
+    color: white;
+}
+
+#aside_kulso{
+    border-style: solid;
+    border-color: #5f4b47;
+    border-width: 0.4em;
+    border-radius: 4em;
+}
+
+#aside_belso{
+    border-style: solid;
+    border-color: #5f4b47;
+    border-width: 0.3em;
+    border-radius: 3em;
+}
+
+#main{
+    border-style: solid;
+    border-color: #5f4b47;
+    border-width: 0.5em;
+    border-radius: 6em;
+}
