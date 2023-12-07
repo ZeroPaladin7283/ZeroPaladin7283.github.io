@@ -4,7 +4,7 @@
 
 
 <!doctype html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,63 +13,61 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<style>
-    #aside{
-        border-style: solid;
-        border-color: #5f4b47;
-    }
-</style>
-
 
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
-    <header class="text-center pt-5 pb-5">
-        <img src="" alt="">
-        <h1>
-            <span style="font-family: Lucida Calligraphy; text-decoration: underline; font-size: 80px; color: #E5DED9;">Golden Cafe</span>
-        </h1>
-        <img src="" alt="">
-    </header>
+
+        <header class="text-center pt-5 pb-5">
+                <h1>
+                    <span style="font-family: Lucida Calligraphy; text-decoration: underline; font-size: 3.7em; color: #E5DED9;">
+                        <img src="images/Bowtie & Cyil.png" class="img-fluid" style="width: 2.5em; height: 2.5em;" alt="">
+                        Golden Cafe
+                        <img src="images/Bowtie & Cyil jobb.png" class="img-fluid" style="width: 2.5em; height: 2.5em;" alt="">
+                    </span>
+                </h1>
+            <img src="" alt="">
+        </header>
 
     <div class="row">
 
 
         <div class="col-3 ms-4 me-2 p-2">
-            <aside id="aside" class="p-2">
+            <aside id="aside_kulso" class="p-2">
 
 
                 <div class="row p-4">
-                    <div id="aside">
+                    <div id="aside_belso">
                         <h1>
-                            <div class="text-center" style="font-family: Baskerville Old Face; color: #E5DED9; text-decoration:underline">
+                            <div class="text-center pt-3 " style="font-family: Lucida Calligraphy; font-size: 1.3em; color: #E5DED9; text-decoration:underline">
                                 Nyitvatartás
                             </div>
                         </h1>
-                        <ul class="fs-3" style="font-family: Baskerville Old Face; color: #E5DED9;">
-                            <li>Hétfő</li>
-                            <li>Kedd</li>
-                            <li>Szerda</li>
-                            <li>Csütörtök</li>
-                            <li>Péntek</li>
-                            <li>Szombat</li>
-                            <li>Vasárnap</li>
+                        <ul class="pt-4 pb-4 ms-4 " style="font-family: Baskerville Old Face; font-size: 1.3em; color: #E5DED9;">
+                            <li>Hétfő: 7:30 - 21:00</li>
+                            <li>Kedd: 7:30 - 21:00</li>
+                            <li>Szerda: 7:30 - 21:00</li>
+                            <li>Csütörtök: 7:30 - 21:00</li>
+                            <li>Péntek: 7:30 - 23:00</li>
+                            <li>Szombat: 7:30 - 23:00</li>
+                            <li>Vasárnap: 7:30 - 23:00</li>
                         </ul>
                     </div>
                 </div>
 
 
-                <div class="row p-4">
-                    <div id="aside">
+                <div class="row p-4 ">
+                    <div id="aside_belso">
                         <h1>
-                            <div class="text-center" style="font-family: Baskerville Old Face; color: #E5DED9; text-decoration:underline">
+                            <div class="text-center pt-3 " style="font-family: Lucida Calligraphy; font-size: 1.3em; color: #E5DED9; text-decoration:underline">
                                 Események
                             </div>
                         </h1>
-                        <ul class="fs-3" style="font-family: Baskerville Old Face; color: #E5DED9;">
-                            <li>Húsvét</li>
-                            <li>Halloween</li>
-                            <li>Karácsony</li>
+                        <ul class="pt-4 pb-4 ms-4 " style="font-family: Baskerville Old Face; font-size: 1.3em; color: #E5DED9;">
+                            <li><span class="text-decoration-underline ">Halloween</span> <p>2023.10.27 - 2023.11.05</p></li>
+                            <li><span class="text-decoration-underline ">Karácsony: </span><p>2023.12.19 - 2023.12.30</p></li>
+                            <li><span class="text-decoration-underline ">Újév: </span><p>2023.12.31 - 2024.01.07</p></li>
+                            <li><span class="text-decoration-underline ">Húsvét: </span><p>2024.03.25 - 2024.04.05</p></li>
                         </ul>
                     </div>
                 </div>
@@ -79,16 +77,16 @@
         </div>
 
 
-        <div class="col-5 ms-5 me-5">
-            <main>
+    <div class="col-5 ms-5 me-5 ">
+    <main id="main" class="p-4">
 
 
                 <h1>
 
-                <div class="row pb-4">
+                <div class="row mb-5">
                     <h1>
-                        <div class="text-center text-capitalize" style="font-family: Baskerville Old Face; color: #E5DED9;">
-                            Menü
+                        <div class="text-center text-capitalize " style="font-family: Lucida Calligraphy; color: #E5DED9;">
+                            <span class="text-decoration-underline " style="font-size: 2.41em;">Menü</span> <p style="font-size: 1.35em;">Közkedvelt Termékeink</p>
                         </div>
                     </h1>
                 </div>
@@ -96,71 +94,130 @@
 
                 </h1>
 
-            <div class="row">
+        <div>
+            <div class="row mb-5" style="font-family: Baskerville Old Face; font-size: 1.5em; color: #E5DED9;">
                 <div>
-                    <p class="pb-4" style="font-family: Baskerville Old Face; color: #E5DED9;">
-                        <img src="" alt="">
-                        ITAL
+                    <p>
+                        <div class="d-flex align-items-end text-start">
+                            <div class="col-8 pe-2">
+                                <p>
+                                    Eclipse:<br>
+                                    Dark Coffee with caramel and whipped cream on top. Perfect for the early mornings, or late night for the night owls.
+                                </p>
+                            </div>
+                            <div class="col-4 text-end">
+                                <img src="images/Eclipse Kávé.jpg" class="img-fluid" style="width: 9em; height: 9em; border-radius: 200px;" alt="">
+                            </div>
+                        </div>
                     </p>
                 </div>
-                <div>
-                    <p class="pb-4" style="font-family: Baskerville Old Face; color: #E5DED9;">
-                        <img src="" alt="">
-                        SETEMÉNY
-                    </p>
-                </div>
-                <div>
-                    <p class="pb-4" style="font-family: Baskerville Old Face; color: #E5DED9;">
-                        <img src="" alt="">
-                        FAGYLALT
-                    </p>
-                </div>
-                </p>
             </div>
 
-            </main>
+
+            <div class="row mb-5" style="font-family: Baskerville Old Face; font-size: 1.5em; color: #E5DED9;">
+                <div>
+                    <p>
+                        <div class="d-flex align-items-end text-end">
+                            <div class="col-4 text-start">
+                                <img src="images/Royal Reunion.jpg" style="width: 9em; height: 9em;  border-radius: 200px;" class="img-fluid " alt="">
+                            </div>
+                            <div class="col-8 text-end">
+                                <p>
+                                Royal Reunion:<br>
+                                A Grape flavored drink  with ice and lemon. Nothing is better than a drink that the whole family can enjoy.
+                                </p>
+                            </div>
+                        </div>
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="row mb-5" style="font-family: Baskerville Old Face; font-size: 1.5em; color: #E5DED9;">
+                <div>
+                    <p>
+                        <div class="d-flex align-items-end text-start">
+                            <div class="col-8 pe-2">
+                                <p>
+                                Phantomry:<br> 
+                                Black Velvet Cupcakes. Whenever you feel like it, eat it! A Cupcake can’t hurt you now can it?
+                                </p>
+                            </div>
+                            <div class="col-4 text-end">
+                                <img src="images/Phantomry.jpg" class="img-fluid" style="width: 9em; height: 9em; border-radius: 200px;" alt="">
+                            </div>
+                        </div>
+                    </p>
+                </div>
+            </div>
+
+
+
+
+            <div class="row mb-5" style="font-family: Baskerville Old Face; font-size: 1.5em; color: #E5DED9;">
+                <div>
+                    <p>
+                        <div class="d-flex align-items-end text-end">
+                            <div class="col-4 text-start">
+                                <img src="images/Surprise Crunch.jpg" style="width: 9em; height: 9em;  border-radius: 200px;" class="img-fluid " alt="">
+                            </div>
+                            <div class="col-8 text-end">
+                                <p>
+                                Surprise crunch:<br>
+                                One surprise flavored ice cream. There are 83 flavors. Let’s see which one you will get.
+                                </p>
+                            </div>
+                        </div>
+                    </p>
+                </div>
+            </div>
+
+            <p style="font-family: Baskerville Old Face; font-size: 2.5em; color: #E5DED9; text-align: center;">
+                <a href="Receptek.html">--- Receptek ---</a>
+            </p>
+
+    </main>
+
+
         </div>
 
-
-        <div class="col-3 ms-4 me-2 p-2">
-            <aside id="aside" class="p-2">
-                <div class="row p-4">
-                    <div id="aside">
+        <div class="col-3 ms-4 me-2 p-2 ">
+            <aside id="aside_kulso" class="p-2 ">
+                <div class="row p-4 ">
+                    <div id="aside_belso">
                         <h1>
-                            <div class="text-center" style="font-family: Baskerville Old Face; color: #E5DED9; text-decoration:underline">
+                            <div class="text-center pt-3 " style="font-family: Lucida Calligraphy; font-size: 1.3em; color: #E5DED9; text-decoration:underline">
                                 Elérhetőségek
                             </div>
                         </h1>
-                        <p class="fs-4" style="font-family: Baskerville Old Face; color: #E5DED9; text-decoration:underline">
-                            Főnök: 
-                                <ul class="fs-4" style="font-family: Baskerville Old Face; color: #E5DED9;">
-                                    <li class="fs-5" style="font-family: Baskerville Old Face; color: #E5DED9;">E-mail Cím: </li>
-                                    <li class="fs-5" style="font-family: Baskerville Old Face; color: #E5DED9;">Telefonszám: </li>
+                        <p class="pt-3 ms-4 " style="font-family: Baskerville Old Face; font-size: 2em; color: #E5DED9;">
+                            Főnök: Evan A.
+                                <ul class="" style="font-family: Baskerville Old Face; color: #E5DED9;">
+                                    <li class="" style="font-family: Baskerville Old Face; font-size: 1.3em; color: #E5DED9;">E-mail Cím: goldencafe@notreal.he</li>
+                                    <li class="" style="font-family: Baskerville Old Face; font-size: 1.3em; color: #E5DED9;">Telefonszám: XX XX 198 383 - Üzleti Hívások!</li>
                                 </ul>
                         </p>
-                        <p class="fs-4" style="font-family: Baskerville Old Face; color: #E5DED9; text-decoration:underline">
-                            Főnök helyettes: 
+                        <p class=" pt-3 ms-4 " style="font-family: Baskerville Old Face; font-size: 2em; color: #E5DED9;">
+                            Asszisztens: Jeremy F.
                                 <ul>
-                                    <li class="fs-5" style="font-family: Baskerville Old Face; color: #E5DED9;">E-mail Cím: </li>
-                                    <li class="fs-5" style="font-family: Baskerville Old Face; color: #E5DED9;">Telefonszám: </li>
+                                    <li class="" style="font-family: Baskerville Old Face; font-size: 1.3em; color: #E5DED9;">E-mail Cím: goldencafe@stillnotreal.he</li>
+                                    <li class="" style="font-family: Baskerville Old Face; font-size: 1.3em; color: #E5DED9;">Telefonszám: XX XX 198 787 - Álláslehetőségek/Foglalások</li>
                                 </ul>
                         </p>
-                        <p class="fs-4" style="font-family: Baskerville Old Face; color: #E5DED9; text-decoration:underline">
-                            Futár: 
+                        <p class=" pt-3 ms-4 " style="font-family: Baskerville Old Face; font-size: 2em; color: #E5DED9;">
+                            Futár: Mike S.
                                 <ul>
-                                    <li class="fs-5" style="font-family: Baskerville Old Face; color: #E5DED9;">E-mail Cím: </li>
-                                    <li class="fs-5" style="font-family: Baskerville Old Face; color: #E5DED9;">Telefonszám: </li>
+                                    <li class="" style="font-family: Baskerville Old Face; font-size: 1.3em; color: #E5DED9;">E-mail Cím: *Nincs E-mail Cím*</li>
+                                    <li class="" style="font-family: Baskerville Old Face; font-size: 1.3em; color: #E5DED9;">Telefonszám: XX XX 000 000 - Ha késik a rendelés!</li>
                                 </ul>
                         </p>
-                        <p class="fs-4" style="font-family: Baskerville Old Face; color: #E5DED9; text-decoration:underline">
+                        <p class="pt-4 ms-4 " style="font-family: Baskerville Old Face; font-size: 2.2em; color: #E5DED9; text-decoration:underline">
                             Rendelés: 
                         </p>
                         <p>
-                            <ul>
-                                <li style="font-family: Baskerville Old Face; color: #E5DED9;" class="fs-5">
-                                    <a href="#" class="link-light link-underline-opacity-100-hover fs-5">
-                                        Rendeljen itt
-                                    </a>
+                            <ul class="pb-4">
+                                <li style="font-family: Baskerville Old Face; font-size: 1.3em; color: #E5DED9;">
+                                    <a href="Rendelés.html">Rendeljen itt</a>
                                 </li>
                             </ul>
                         </p>
@@ -168,20 +225,20 @@
                 </div>
 
                 <div class="row p-4">
-                    <div id="aside">
+                    <div id="aside_belso">
                         <h1>
-                            <div class="text-center" style="font-family: Baskerville Old Face; color: #E5DED9; text-decoration:underline">
+                            <div class="text-center pt-3" style="font-family: Lucida Calligraphy; font-size: 1.3em; color: #E5DED9; text-decoration:underline">
                                 Blog
                             </div>
                         </h1>
-                        <ul class="fs-5" style="font-family: Baskerville Old Face; color: #E5DED9;">
-                            <li style="font-family: Baskerville Old Face; color: #E5DED9;" class="fs-5">
-                                <a href="#" class="link-light link-underline-opacity-100-hover fs-5">
+                        <ul class="pt-4 pb-4 ms-4" style="font-family: Baskerville Old Face; color: #E5DED9;">
+                            <li style="font-family: Baskerville Old Face; font-size: 1.3em; color: #E5DED9;" class="pb-3">
+                                <a href="Vélemények.html">
                                     Vélemények
                                 </a>
                             </li>
-                            <li style="font-family: Baskerville Old Face; color: #E5DED9;" class="fs-5">
-                                <a href="#" class="link-light link-underline-opacity-100-hover fs-5">
+                            <li style="font-family: Baskerville Old Face; font-size: 1.3em; color: #E5DED9;" class="">
+                                <a href="GYIK.html">
                                     GYIK
                                 </a>
                             </li>
